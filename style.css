@@ -1,10 +1,12 @@
 body {
   background: #1f2937;
   font-family: "Roboto", sans-serif;
+  margin: auto;
 }
 .header {
   display: flex;
   margin: auto;
+  margin-top: 8px;
 }
 
 .logo {
@@ -20,4 +22,19 @@ body {
   width: 500px;
   list-style-type: none;
   text-decoration: none;
+}
+
+.subsections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.subsection {
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
