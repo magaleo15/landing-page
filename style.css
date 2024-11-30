@@ -28,7 +28,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  background-color: ;
 }
 
 .subsection {
@@ -41,9 +40,10 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
+  margin: auto;
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 138px;
+  margin-right: 138px;
 }
 
 .left {
@@ -55,7 +55,6 @@ body {
 
 #img-one {
   flex: 1;
-  margin-rightto;
 }
 
 #one {
