@@ -30,12 +30,6 @@ body {
   margin: auto;
 }
 
-.subsection {
-  margin: auto;
-  font-size: 50px;
-  color: #e5e7eb;
-}
-
 .one {
   display: flex;
   margin: auto;
@@ -44,6 +38,7 @@ body {
   margin-top: 50px;
   margin-left: 138px;
   margin-right: 138px;
+  margin-bottom: 50px;
 }
 
 .left {
@@ -78,4 +73,41 @@ body {
   border: none;
   border-radius: 3px;
   padding: 2px;
+}
+
+.subsection.two {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.information.header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  align-items: center;
+  margin-top: 20px;
+}
+.images-and-text {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+}
+
+.blank.img {
+  margin-top: 15px;
+  border: solid #3882f6;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+}
+
+.just.text {
+  width: 100px;
 }
