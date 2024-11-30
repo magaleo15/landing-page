@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
+  background-color: ;
 }
 
 .subsection {
@@ -38,11 +39,44 @@ body {
 
 .one {
   display: flex;
-  width: 1000px;
   margin: auto;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .left {
+  flex: 1;
   flex-direction: column;
-  display: flex;
+  margin-right: 50px;
+  margin-top: 0px;
+}
+
+#img-one {
+  flex: 1;
+  margin-rightto;
+}
+
+#one {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+#two {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button {
+  margin-top: 5px;
+  background-color: #3882f6;
+  width: 80px;
+  height: 20px;
+  margin-left: 0px;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 3px;
+  padding: 2px;
 }
