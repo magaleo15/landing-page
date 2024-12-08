@@ -120,9 +120,26 @@ body {
 .three {
   background-color: #e5e7eb;
   box-sizing: border-box;
-  height: 250px;
-  border: 50px solid #e5e7eb;
-  font-size: 25px;
+  border: 100px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: auto;
+  flex-wrap: wrap;
+  font-style: italic;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.thor {
+  width: 400px;
+  font-weight: 900;
+  align-self: end;
 }
 
 .four {
@@ -131,6 +148,8 @@ body {
   box-sizing: border-box;
   border: 50px solid #f9faf8;
   height: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
