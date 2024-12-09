@@ -121,7 +121,8 @@ body {
   background-color: #e5e7eb;
   box-sizing: border-box;
   border: 100px solid #e5e7eb;
-  display: flex;
+  /* width: 400px; */
+  /* display: flex; */
   flex-direction: column;
 }
 
@@ -137,21 +138,26 @@ body {
 }
 
 .thor {
-  width: 400px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   font-weight: 900;
-  align-self: end;
+  /* justify-content: end; */
+  margin-left: 550px;
 }
 
 .four {
   background: #3882f6;
   color: #f9faf8;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border: 50px solid #f9faf8;
   height: 200px;
   display: flex;
   flex-direction: column;
 }
-
+.last.div {
+  display: flex;
+}
 .footer {
   color: #e5e7eb;
   height: 50px;
